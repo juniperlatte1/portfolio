@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling/styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="header-div">
+        <div class="left-div-container" id="info-container">
+            <a href="#"><img src="styling\images\logo.png" alt="logo" id="logo"></a>
+            <h1>Hi, I am Courtney Brown!</h1>
+            <h3>I AM A SOFTWARE DEVELOPER</h3>
+
+            <ul>
+                <li>About Me</li>
+                <li>Contact (external page link)</li>
+                <li>Skills</li>
+                <li>Projects</li>
+            </ul>
+            <button class="LetsConnectButton">
+                <a href="mailto:courtney.sbrown@yahoo.com">Let's Connect!</a>
+            </button>
+        </div>
+        <div class="right-span-container" id="image-container">
+            <img src="./styling/images/PortfolioPic.png" alt="PortfolioPic" id="PortfolioPic">
+        </div>
+    </div>
+    <div id="AboutMe">
+        <h2>About Me</h2>
+        <button>More about Me <!--directs to separate page telling more about me--></button>
+        <p> Hey there! My name is Courtney Brown, but my friends call me Court and so can you. I am a dedicated full
+            stack software developer with
+            a keen interest in crafting elegant, scalable code solutions. I have a deep love for all elements of
+            aesthetic
+            and functional design; creation is my life-blood. I am your one-stop shop for web development so, really, do
+            you need to look any further?
+            Rest assured, you do not.
+
+            As a software engineer, I understand the importance of balancing technical prowess with a deep empathy for
+            the needs of end-users, and I take
+            pride in crafting code solutions that are as elegant as they are practical. In addition to a strong
+            commitment to my craft, I am also a lifelong
+            learner, constantly striving to expand my skill set and knowledge base. Ultimately, I view software
+            engineering as an opportunity to make
+            a meaningful impact on the world around me, and I am excited to continue exploring this dynamic field
+            alongside like-minded individuals who share
+            my passion for innovation and excellence.
+
+            I value clear communication, proactiveness, and personal responsibility in the work place. Professional
+            relationships are of the upmost
+            importance to me. Afterall, we spend most of our lives commited to our crafts. As such, I also value humor
+            and I am not above cracking a joke while meeting
+            goals. For example, Why did the programmer quit her job? Because she didn't get arrays! See? Hilarious.
+
+            In my free time, I enjoy listening to audiobooks, crocheting, and running with my Giant Schnauzer, Sugar. I
+            can often be found in
+            a coffee shop diving into the latest tech developments and researching ways to implement new innovations
+            into my work.
+
+            Let's connect over a (virtual or in-person) cup of Joe to discuss exactly what I can add to your team. I
+            look foward to hearing from you!
+
+
+        </p>
+    </div>
+    <div id="Projects">
+        <h2>Projects</h2> <!-- add photos as stand-ins for completed works, links won't be linkable -->
+    </div>
+    <div id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Spring Boot</li>
+            <li>Spring Data JPA</li>
+            <li>Spring Security (JWT)</li>
+            <li>Bootstrap</li>
+            <li>REST API's</li>
+            <li>SQL</li>
+            <li>Unit Testing (JUnit, Mockito)</li>
+            <li>SOLID OOP Principles</li>
+            <li>Dependencies Injection </li>
+            <li>Git</li>
+
+        </ul>
+    </div>
+    <div id="Contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:courtneyfadis@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
